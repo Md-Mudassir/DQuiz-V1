@@ -54,7 +54,7 @@ h3 {
 }
 
 .container > * {
-  width: 100%;
+  width: 80%;
 }
 
 .flex-column {
@@ -106,3 +106,33 @@ h3 {
   transform: none;
 }
 
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  background: #ffffff;
+  border: 0% solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.3rem 2.6rem;
+  background-color: black;
+  border-radius: 50% 0% 0% 50%;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.choice-text {
+  padding: 1.5rem;
+}
