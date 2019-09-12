@@ -10,13 +10,6 @@
   color: black;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin-bottom: 1rem;
-}
-
 h1 {
   font-size: 5.4rem;
   color: black;
@@ -112,6 +105,7 @@ h3 {
   display: flex;
   margin-bottom: 0.5rem;
   width: 100%;
+  margin-bottom: 2%;
   font-size: 1.8rem;
   background: #ffffff;
   border: 0% solid #ffffff;
@@ -137,4 +131,45 @@ h3 {
 
 .choice-text {
   padding: 1.5rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
+}
+
+#progressBar {
+  width: 40rem;
+  height: 4rem;
+  margin-top: 1.5rem;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+}
+
+#progressBarFull {
+  height: 3.8rem;
+  width: 0%;
+  background: #b0b7b6;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
 }
