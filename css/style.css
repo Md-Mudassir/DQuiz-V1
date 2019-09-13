@@ -29,6 +29,10 @@ h3 {
   font-weight: 500;
 }
 
+.rules {
+  font-size: 1.9em;
+  margin-bottom: 10%;
+}
 /* UTILITIES */
 
 .container {
