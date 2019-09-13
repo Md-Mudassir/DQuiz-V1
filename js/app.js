@@ -10,7 +10,7 @@ let questionCounter = 0;
 let availableQuesions = [];
 let questions = [];
 
-fetch("ques.json")
+fetch("questions.json")
   .then(res => {
     return res.json();
   })
