@@ -8,10 +8,9 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-
 let questions = [];
 
-fetch("questions.json")
+fetch("ques.json")
   .then(res => {
     return res.json();
   })
@@ -37,7 +36,7 @@ startGame = () => {
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
-    //go to the end page
+    //go to the gameover page
     return window.location.assign("../pages/gameover.html");
   }
   questionCounter++;
@@ -71,6 +70,8 @@ choices.forEach(choice => {
 
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
+    } else if (classToApply === "incorrect") {
+      decrementScore(CORRECT_BONUS);
     }
 
     selectedChoice.parentElement.classList.add(classToApply);
@@ -84,5 +85,10 @@ choices.forEach(choice => {
 
 incrementScore = num => {
   score += num;
+  scoreText.innerText = score;
+};
+
+decrementScore = num => {
+  score -= num - 5;
   scoreText.innerText = score;
 };
