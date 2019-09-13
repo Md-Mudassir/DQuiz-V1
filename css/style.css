@@ -11,17 +11,17 @@
 }
 
 h1 {
-  font-size: 5.4rem;
+  font-size: 4.4rem;
   color: black;
   font-style: normal;
   font-weight: bold;
   margin-bottom: 3rem;
 }
 
-h2 {
-  font-size: 4.2rem;
+#question {
+  font-size: 3.2rem;
   margin-bottom: 4rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 h3 {
