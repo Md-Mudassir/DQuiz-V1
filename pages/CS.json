@@ -26,7 +26,7 @@
       "category": "Science: Computers",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What does the &quot;MP&quot; stand for in MP3?",
+      "question": "What does MP stand for in MP3?",
       "correct_answer": "Moving Picture",
       "incorrect_answers": ["Music Player", "Multi Pass", "Micro Point"]
     },

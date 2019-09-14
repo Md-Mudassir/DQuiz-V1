@@ -73,7 +73,7 @@
       "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he/she never said it at all?",
+      "question": "Which famous world leader is famed for the saying, Let them eat cake, yet is rumored that he/she never said it at all?",
       "correct_answer": "Marie Antoinette",
       "incorrect_answers": ["Czar Nicholas II", "Elizabeth I", "Henry VIII"]
     },
@@ -225,7 +225,7 @@
       "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The &quot;Trail of Tears&quot; was a result of which United States President&#039;s Indian Removal Policy?",
+      "question": "The Trail of Tears  was a result of which United States President&#039;s Indian Removal Policy?",
       "correct_answer": "Andrew Jackson",
       "incorrect_answers": [
         "Harry S. Truman",
@@ -253,7 +253,7 @@
       "category": "History",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which modern country is known as &quot;The Graveyard of Empires&quot;?",
+      "question": "Which modern country is known as The Graveyard of Empires?",
       "correct_answer": "Afghanistan",
       "incorrect_answers": ["China", "Iraq", "Russia"]
     },
