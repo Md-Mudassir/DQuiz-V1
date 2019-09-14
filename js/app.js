@@ -25,7 +25,7 @@ window.onload = function() {
 };
 
 // intitialize the json file and start the game
-function initialize() {
+initialize = () => {
   fetch(Questions)
     .then(res => {
       return res.json();
@@ -57,7 +57,7 @@ function initialize() {
     .catch(err => {
       console.error(err);
     });
-}
+};
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
