@@ -8,39 +8,54 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-let questions = [];
+// let questions = [];
+let Questions = " ";
 
-fetch("CS.json")
-  .then(res => {
-    return res.json();
-  })
-  .then(loadedQuestions => {
-    console.log(loadedQuestions.results);
-    questions = loadedQuestions.results.map(loadedQuestion => {
-      const formattedQuestion = {
-        question: loadedQuestion.question
-      };
+window.onload = function() {
+  if (document.title == "General Knowledge") {
+    Questions = "GK.json";
+    initialize();
+  } else if (document.title == "Computer Science") {
+    Questions = "CS.json";
+    initialize();
+  } else {
+    Questions = "Politics.json";
+    initialize();
+  }
+};
 
-      const answerChoices = [...loadedQuestion.incorrect_answers];
-      formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
-      answerChoices.splice(
-        formattedQuestion.answer - 1,
-        0,
-        loadedQuestion.correct_answer
-      );
+function initialize() {
+  fetch(Questions)
+    .then(res => {
+      return res.json();
+    })
+    .then(loadedQuestions => {
+      console.log(loadedQuestions.results);
+      questions = loadedQuestions.results.map(loadedQuestion => {
+        const formattedQuestion = {
+          question: loadedQuestion.question
+        };
 
-      answerChoices.forEach((choice, index) => {
-        formattedQuestion["choice" + (index + 1)] = choice;
+        const answerChoices = [...loadedQuestion.incorrect_answers];
+        formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
+        answerChoices.splice(
+          formattedQuestion.answer - 1,
+          0,
+          loadedQuestion.correct_answer
+        );
+
+        answerChoices.forEach((choice, index) => {
+          formattedQuestion["choice" + (index + 1)] = choice;
+        });
+
+        return formattedQuestion;
       });
-
-      return formattedQuestion;
+      startGame();
+    })
+    .catch(err => {
+      console.error(err);
     });
-    startGame();
-  })
-  .catch(err => {
-    console.error(err);
-  });
-  
+}
 //CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
