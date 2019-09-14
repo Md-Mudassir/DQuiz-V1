@@ -3,7 +3,6 @@ const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
-
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
@@ -11,27 +10,47 @@ let questionCounter = 0;
 let availableQuesions = [];
 let questions = [];
 
-fetch("questions.json")
+fetch("CS.json")
   .then(res => {
     return res.json();
   })
   .then(loadedQuestions => {
-    questions = loadedQuestions;
+    console.log(loadedQuestions.results);
+    questions = loadedQuestions.results.map(loadedQuestion => {
+      const formattedQuestion = {
+        question: loadedQuestion.question
+      };
+
+      const answerChoices = [...loadedQuestion.incorrect_answers];
+      formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
+      answerChoices.splice(
+        formattedQuestion.answer - 1,
+        0,
+        loadedQuestion.correct_answer
+      );
+
+      answerChoices.forEach((choice, index) => {
+        formattedQuestion["choice" + (index + 1)] = choice;
+      });
+
+      return formattedQuestion;
+    });
     startGame();
   })
   .catch(err => {
     console.error(err);
   });
-
+  
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 10;
+const MAX_QUESTIONS = 3;
 
 startGame = () => {
   questionCounter = 0;
   score = 0;
   availableQuesions = [...questions];
   getNewQuestion();
+  document.getElementsByClassName("category").innerText = "fsgsh";
 };
 
 getNewQuestion = () => {

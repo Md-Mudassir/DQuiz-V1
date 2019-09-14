@@ -1,0 +1,231 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?   ",
+      "correct_answer": "Richard Branson",
+      "incorrect_answers": ["Alan Sugar", "Donald Trump", "Bill Gates"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Where is the train station &quot;Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch&quot;?",
+      "correct_answer": "Wales",
+      "incorrect_answers": ["Moldova", "Czech Republic", "Denmark"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What does a funambulist walk on?",
+      "correct_answer": "A Tight Rope",
+      "incorrect_answers": ["Broken Glass", "Balls", "The Moon"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In past times, what would a gentleman keep in his fob pocket?",
+      "correct_answer": "Watch",
+      "incorrect_answers": ["Money", "Keys", "Notebook"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Gumbo is a stew that originated in Louisiana.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "On a dartboard, what number is directly opposite No. 1?",
+      "correct_answer": "19",
+      "incorrect_answers": ["20", "12", "15"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which American president appears on a one dollar bill?",
+      "correct_answer": "George Washington",
+      "incorrect_answers": [
+        "Thomas Jefferson",
+        "Abraham Lincoln",
+        "Benjamin Franklin"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What geometric shape is generally used for stop signs?",
+      "correct_answer": "Octagon",
+      "incorrect_answers": ["Hexagon", "Circle", "Triangle"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the shape of the toy invented by Hungarian professor Ernő Rubik?",
+      "correct_answer": "Cube",
+      "incorrect_answers": ["Sphere", "Cylinder", "Pyramid"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of the Jewish New Year?",
+      "correct_answer": "Rosh Hashanah",
+      "incorrect_answers": ["Elul", "New Year", "Succoss"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Nutella is produced by the German company Ferrero.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What type of animal was Harambe, who was shot after a child fell into it&#039;s enclosure at the Cincinnati Zoo?",
+      "correct_answer": "Gorilla",
+      "incorrect_answers": ["Tiger", "Panda", "Crocodile"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many colors are there in a rainbow?",
+      "correct_answer": "7",
+      "incorrect_answers": ["8", "9", "10"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Red Vines is a brand of what type of candy?",
+      "correct_answer": "Licorice",
+      "incorrect_answers": ["Lollipop", "Chocolate", "Bubblegum"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Bulls are attracted to the color red.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the French word for &quot;hat&quot;?",
+      "correct_answer": "Chapeau",
+      "incorrect_answers": ["Bonnet", " &Eacute;charpe", " Casque"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which one of these is not a typical European sword design?",
+      "correct_answer": "Scimitar",
+      "incorrect_answers": ["Falchion", "Ulfberht", "Flamberge"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which American-owned brewery led the country in sales by volume in 2015?",
+      "correct_answer": "D. G. Yuengling and Son, Inc",
+      "incorrect_answers": [
+        "Anheuser Busch",
+        "Boston Beer Company",
+        "Miller Coors"
+      ]
+    },
+
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the name of Poland in Polish?",
+      "correct_answer": "Polska",
+      "incorrect_answers": ["Pupcia", "Polszka", "P&oacute;land"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What do the letters of the fast food chain KFC stand for?",
+      "correct_answer": "Kentucky Fried Chicken",
+      "incorrect_answers": [
+        "Kentucky Fresh Cheese",
+        "Kibbled Freaky Cow",
+        "Kiwi Food Cut"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What was the first ever London Underground line to be built?",
+      "correct_answer": "Metropolitan Line",
+      "incorrect_answers": ["Circle Line", "Bakerloo Line", "Victoria Line"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "&quot;27 Club&quot; is a term used to refer to a list of famous actors, musicians, and artists who died at the age of 27.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Scotland voted to become an independent country during the referendum from September 2014.",
+      "correct_answer": "False",
+      "incorrect_answers": ["True"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following presidents is not on Mount Rushmore?",
+      "correct_answer": "John F. Kennedy",
+      "incorrect_answers": [
+        "Theodore Roosevelt",
+        "Abraham Lincoln",
+        "Thomas Jefferson"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which country, not including Japan, has the most people of japanese decent?",
+      "correct_answer": "Brazil",
+      "incorrect_answers": ["China", "South Korea", "United States of America"]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following is the IATA code for Manchester Airport?",
+      "correct_answer": "MAN",
+      "incorrect_answers": ["EGLL", "LHR", "EGCC"]
+    }
+  ]
+}
