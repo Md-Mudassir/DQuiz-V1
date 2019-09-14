@@ -8,9 +8,9 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-// let questions = [];
 let Questions = " ";
 
+// check the category & assign the json file accordingly
 window.onload = function() {
   if (document.title == "General Knowledge") {
     Questions = "GK.json";
@@ -24,6 +24,7 @@ window.onload = function() {
   }
 };
 
+// intitialize the json file and start the game
 function initialize() {
   fetch(Questions)
     .then(res => {
@@ -36,6 +37,7 @@ function initialize() {
           question: loadedQuestion.question
         };
 
+        // formatting the json file questions as per the choices layout
         const answerChoices = [...loadedQuestion.incorrect_answers];
         formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
         answerChoices.splice(
@@ -65,7 +67,6 @@ startGame = () => {
   score = 0;
   availableQuesions = [...questions];
   getNewQuestion();
-  document.getElementsByClassName("category").innerText = "fsgsh";
 };
 
 getNewQuestion = () => {
@@ -103,6 +104,7 @@ choices.forEach(choice => {
     const classToApply =
       selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
+    // based on the input incement or decrement the score
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
     } else if (classToApply === "incorrect") {
