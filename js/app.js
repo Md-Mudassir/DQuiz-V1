@@ -73,7 +73,7 @@ getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
     //go to the gameover page
-    return window.location.assign("../pages/gameover.html");
+    return window.location.replace("../pages/gameover.html");
   }
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
