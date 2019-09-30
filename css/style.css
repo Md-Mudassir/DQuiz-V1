@@ -121,7 +121,7 @@ h3 {
 
 .choice-prefix {
   padding: 1.3rem 2.6rem;
-  background-color: black;
+  background-color: #585656;
   border-radius: 47% 0% 0% 46%;
   color: white;
   font-family: Poppins;
@@ -135,11 +135,11 @@ h3 {
 }
 
 .correct {
-  background-color: #28a745;
+  background-color: #4efa76;
 }
 
 .incorrect {
-  background-color: #dc3545;
+  background-color: #f07582;
 }
 
 .hud {
@@ -157,6 +157,7 @@ h3 {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
+  text-align: center;
 }
 
 #progressBar {

@@ -76,7 +76,7 @@ getNewQuestion = () => {
     return window.location.replace("../pages/gameover.html");
   }
   questionCounter++;
-  progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+  progressText.innerText = `Question ${questionCounter}:${MAX_QUESTIONS}`;
   //Update the progress bar
   progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
 
