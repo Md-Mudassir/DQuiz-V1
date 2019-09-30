@@ -149,8 +149,8 @@ h3 {
 
 .hud-prefix {
   text-align: center;
-  font-size: 2rem;
-  margin: 3%;
+  font-size: 3rem;
+  /* margin: 3%; */
 }
 
 .hud-main-text {
@@ -160,8 +160,8 @@ h3 {
 }
 
 #progressBar {
-  width: 20rem;
-  height: 4rem;
+  width: 35rem;
+  height: 2rem;
   margin-top: 1.5rem;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -169,11 +169,11 @@ h3 {
 }
 
 #progressBarFull {
-  height: 3.8rem;
+  height: 1.8rem;
   width: 0%;
   background: #b0b7b6;
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* border: 1px solid #000000; */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   border-radius: 26px;
 }
 
