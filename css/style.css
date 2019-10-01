@@ -171,9 +171,9 @@ h3 {
 
 #progressBarFull {
   height: 1.8rem;
-  width: 0%;
   background: #b0b7b6;
   border-radius: 2.6rem;
+  transition: all 0.5s;
 }
 
 form {
